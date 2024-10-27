@@ -92,6 +92,10 @@
 {
   display: none !important;
 }
+.testi-cont
+{
+  padding: 25px 30px !important;
+}
 }
 
 .testimonial .shadow-normal
