@@ -1,4 +1,41 @@
 .footer{
     overflow: hidden;
     background-color: #2a5285 !important;
+    color: #fff;
 }
+.footer .logo {
+    margin-bottom: 10px;
+    height: 100px;
+}
+.footer .widget-title {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 800;
+  }
+  .footer-contact {
+    display: block;
+    list-style: none;
+    padding: 0px 0px 0px 20px;
+  }
+  .footer-contact li {
+    padding: 6px 0px;
+    color: #fff;
+    list-style: circle;
+    opacity: 0.8;
+  }
+  .footer-contact li.active {
+    color: #fff;
+    opacity: 1;
+  }
+  .footer-contact li:hover {
+    color: #fff;
+    opacity: 1 !important;
+  }
+  .footer .icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .footer a{
+    color: #fff;
+  }
