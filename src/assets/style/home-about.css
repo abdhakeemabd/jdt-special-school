@@ -1,0 +1,58 @@
+.home-about-sec .sm-card{
+    position: relative;
+    padding: 40px 30px;
+    background: #faebd7;
+    text-align: center;
+    border: 1px solid #2222;
+}
+.home-about-sec .sm-card h4{
+    font-size: 16px;
+    margin-bottom:20px ;
+}
+.home-about-sec .sm-card:hover h4{
+    color: #0e6e4e;
+}
+.home-about-sec .sm-card h4::after{
+    content: "";
+    display: block;
+    height: 1.8px;
+    width: 62px;
+    margin-top: 5px;
+    background-color: #222;
+    left: 40%;
+    position: absolute;
+}
+.home-about-sec .sm-card .icons{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    line-height: 62px;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    margin: -41px 0 0 -41px;
+    background-color: #faebd7;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0 0 12px #00000014;
+}
+.home-about-sec .sm-card:hover .icons{
+    box-shadow: 0 0 42px #00000014;
+
+}
+.home-about-sec .sm-card:hover .icons img:not(:last-child){
+    display: none;
+    transition: all 0.3s;
+}
+.home-about-sec .sm-card:hover .icons img:not(:first-child){
+    display: inline-block;
+    transition: all 0.3s;
+}
+.home-about-sec .sm-card .icons img:not(:first-child){
+    display: none;
+    transition: all 0.3s;
+}
+.home-about-sec .sm-card .icons img:not(:last-child){
+    display: inline-block;
+    transition: all 0.3s;
+}
+
