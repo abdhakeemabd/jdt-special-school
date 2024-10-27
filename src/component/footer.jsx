@@ -15,7 +15,7 @@ function Footer() {
                 <div className="logo">
                   <img className='logo' src={Logo} alt="" />
                 </div>
-                <p>JDT Islam Orphanage & Educational Institutions, established in 1922, is a charitable educational institution. The institution works for the welfare, care and upliftment of orphaned and destitute children.</p>
+                <p className='ms-3'>JDT Islam Orphanage & Educational Institutions, established in 1922, is a charitable educational institution. The institution works for the welfare, care and upliftment of orphaned and destitute children.</p>
               </div>
               <div className="col-md-3">
               <h3 className="widget-title">Explore</h3>

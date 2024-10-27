@@ -1,8 +1,15 @@
 import React from 'react'
+import BlogBanner from '../component/blog-banner'
+import Navbar from '../component/navbar'
+import Footer from '../component/footer'
 
 function Blog() {
   return (
-    <div>Blog</div>
+    <div>
+      <Navbar/>
+      <BlogBanner/>
+      <Footer/>
+    </div>
   )
 }
 

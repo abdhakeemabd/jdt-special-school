@@ -9,6 +9,7 @@ import About from "./pages/about";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
 import Blog from "./pages/blog";
+import ScrollToTop from "./component/scrooltop";
 // import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     
    <>
     <Router> 
-       {/* <ScrollToTop />     */}
+       <ScrollToTop/>    
     <Routes>
     <Route index element={<Home />} />
     <Route path="/about" element={<About />} />
