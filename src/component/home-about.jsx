@@ -14,7 +14,7 @@ function HomeAbout() {
     <div>
       <section className='home-about-sec'>
         <div className="container">
-          <div className="row">
+          <div className="row mt-4">
               <div className="col-md-3 mb-3 p-md-0" data-aos="fade-up">
                   <div className="sm-card mb-5 mb-md-0">
                     <div className='icons'>

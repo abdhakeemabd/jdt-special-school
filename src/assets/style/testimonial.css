@@ -63,7 +63,7 @@
   }
   .testimonial .slick-prev:before, .slick-next:before
   {
-    color:#282c34 !important;
+    display: none;
   }
   .testimonial .slick-prev
   {
@@ -126,4 +126,8 @@
     border-radius: 50%;
     width: 0.7rem;
     height: 0.7rem;
+}
+.testimonial .slick-slide{
+  background-color: #e7e6e6;
+  border-radius: 10px ;
 }

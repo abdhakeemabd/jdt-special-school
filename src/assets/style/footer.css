@@ -1,7 +1,8 @@
-.footer{
+.footer-top{
     overflow: hidden;
     background-color: #2a5285 !important;
     color: #fff;
+    padding: 60px 0px 20px;
 }
 .footer .logo {
     margin-bottom: 10px;
@@ -38,4 +39,22 @@
   }
   .footer a{
     color: #fff;
+  }
+  footer .footer-bottom{
+    background-color: #1a3b65 !important;
+    padding: 20px 0px;
+  }
+  .footer-bottom .social-links {
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .footer-bottom .social-links li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .footer-bottom .social-links li svg{
+    width: auto;
+    height: auto;
   }

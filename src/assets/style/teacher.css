@@ -19,7 +19,7 @@
 }
 .card-teacher
 {
-    box-shadow:-3px 14px 12px #9190903d !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 10px 10px 10px 10px;
     margin: 0px 15px;
 }
@@ -80,10 +80,15 @@
 }
 .teacher .slick-arrow.slick-prev {
 left: -40px !important;
+display: none !important;
 }
 .teacher .slick-arrow.slick-next {
     right: -20px !important;
+    display: none !important;
 }
 .teacher .slick-prev:before, .slick-next:before{
     color: #000 !important;
+}
+.teacher .slick-track{
+    padding-bottom: 10px;
 }

@@ -67,7 +67,7 @@ function HomeBlog() {
         <div className="slider-container">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-5" data-aos="fade-right">
+            <div className="col-md-5" data-aos="fade-up">
               <Slider className="left-slider" asNavFor={nav2} ref={slider => (slickNav.current = slider)} {...settingsContent}>
                 {slidesContent.map((slide, index) => (
                   <div key={index}>
@@ -83,7 +83,7 @@ function HomeBlog() {
                 ))}
               </Slider>
             </div>
-            <div className="col-md-7 mt-3 mt-md-0" data-aos="fade-left">
+            <div className="col-md-7 mt-3 mt-md-0" data-aos="fade-up">
               <Slider {...settingsImages}>
                 {slidesContent.map((slide, index) => (
                   <div key={index}>

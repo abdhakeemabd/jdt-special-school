@@ -29,9 +29,19 @@
     .btn-secondary {
       background-color: #2a5285;
       color: #fff !important;
+      border-radius: 20px;
+      padding: 5px 10px;
     }
   }
   .modal-content.p-25 {
     padding: 25px;
   }
-  
+  .post-details .btn-more{
+    background-color: #2a5285;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 22px;
+  }
+  .border-bottom:last-child{
+    border: 0px !important;
+  }

@@ -5,11 +5,18 @@ import Map from '../assets/img/icons/map.png';
 import Phone from '../assets/img/icons/phone.png'
 import Mail from '../assets/img/icons/mail.png'
 import Logo from "../assets/img/logo/logo-t.png";
+import { IoLogoYoutube } from "react-icons/io";
+import { RiInstagramFill } from "react-icons/ri";
+
+import {  FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+
+
 function Footer() {
   return (
     <div>
-      <footer className='footer'>
-        <div className="container">
+      <footer className='footer pb-0'>
+       <div className="footer-top">
+       <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <div className="logo">
@@ -54,6 +61,25 @@ function Footer() {
                 </div>
               </div>
             </div>
+        </div>
+       </div>
+        <div className="footer-bottom">
+          <div className="container">
+            <div className="row">
+            <div className="col-md-6 text-white text-center">
+                  <div className='mb-0'> Copyright © {new Date().getFullYear()}. All Rights Reserved. Developed <a className='fw-bold px-1' target='_blank' href="https://www.kppcs.com/">kppcs.com</a></div>
+            </div>
+            <div className="col-md-6 text-end text-white">
+             <ul className='social-links d-flex flex-wrap'>
+              <li> <a href="https://www.youtube.com/jdtislamonline"> <IoLogoYoutube /></a> </li>
+              <li><a href="https://www.instagram.com/jdtislamofficial"><RiInstagramFill /></a></li>
+              <li><a href="https://www.facebook.com/jdtislamofficial"><FaFacebookF /></a></li>
+              <li><a href="#"><FaLinkedinIn /></a></li>
+             </ul>
+
+            </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>

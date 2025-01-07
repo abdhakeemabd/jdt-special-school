@@ -13,24 +13,24 @@ function Funfac() {
                 <p className='sec-dec text-white text-center'> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div> 
             <div className="row align-items-center">
-                <div className="col-lg-4 col-md-6 col-6" data-aos="fade-right" data-aos-offset="10">
+                <div className="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-offset="10">
                    <div className="fun-factor">
                     <img alt='fac' src ={Fac1} />
-                    <h2> <span  data-counter="27" className="timer">27</span></h2>
-                    <p>lorem</p>
+                    <h2> <span  data-counter="27" className="timer">7 +</span></h2>
+                    <p>Years Experience</p>
                    </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-offset="10">
                    <div className="fun-factor">
                     <img alt='fac' src ={Fac2} />
-                    <h2> <span  data-counter="27" className="timer">27</span></h2>
+                    <h2> <span  data-counter="27" className="timer">30 +</span></h2>
                     <p>Stundets</p>
                    </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-6" data-aos="fade-left" data-aos-offset="10">
+                <div className="col-lg-4 col-md-6 col-6" data-aos="fade-up" data-aos-offset="10">
                    <div className="fun-factor">
                     <img alt='fac' src ={Fac3} />
-                    <h2> <span  data-counter="27" className="timer">27</span></h2>
+                    <h2> <span  data-counter="27" className="timer">10 +</span></h2>
                     <p>Teachers</p>
                    </div>
                 </div>
