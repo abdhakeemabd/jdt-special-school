@@ -67,7 +67,7 @@ function Footer() {
           <div className="container">
             <div className="row">
             <div className="col-md-6 text-white text-center">
-                  <div className='mb-0'> Copyright © {new Date().getFullYear()}. All Rights Reserved. Developed <a className='fw-bold px-1' target='_blank' href="https://www.kppcs.com/">kppcs.com</a></div>
+                  <div className='mb-0'> Copyright © {new Date().getFullYear()}. All Rights Reserved.</div>
             </div>
             <div className="col-md-6 text-end text-white">
              <ul className='social-links d-flex flex-wrap'>
